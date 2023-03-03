@@ -5,13 +5,19 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1 # max number of concurrent building jobs
 build-mindetach-module = true
 
+# extended
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "ReVanced Extended"
+
 # add 'enabled = false' for not patching a specific app
 [YouTube]
 enabled = true
 build-mode = "both" # 'both', 'apk' or 'module'
 # excluded-patches = "debugging microg-support" # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = "video-ads swipe-controls sponsorblock return-youtube-dislike premium-heading general-ads downloads minimized-playback codecs-unlock" # whitespace seperated list of patches to include
-version = "18.08.36" # 'auto', 'latest' or a custom one like '17.40.41'
+#included-patches = " general-ads video-ads swipe-controls sponsorblock return-youtube-dislike premium-heading downloads minimized-playback codecs-unlock" # whitespace seperated list of patches to include
+included-patches = "hide-general-ads hide-video-ads swipe-controls hide-endscreen-overlay sponsorblock return-youtube-dislike force-premium-heading enable-minimized-playback force-vp9-codec custom-video-speed enable-open-links-directly enable-seekbar-tapping"
+version = "latest" # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = true # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "youtubeRe"
