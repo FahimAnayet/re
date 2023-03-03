@@ -1,18 +1,37 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.99.0.apk  
-Patches: revanced-patches-2.164.0.jar  
+Integrations: revanced-integrations-0.99.12.apk  
+Patches: revanced-patches-2.164.12.jar  
 
-### [2.164.0](https://github.com/revanced/revanced-patches/compare/v2.163.0...v2.164.0) (2023-02-24)
-### Features
-* **photomath:** `unlock-plus` patch ([#1633](https://github.com/revanced/revanced-patches/issues/1633)) ([a673514](https://github.com/revanced/revanced-patches/commit/a673514f848e583513924a6a9b8cfbb56153cc3a))
-* **youtube/general-ads:** hide quick actions in fullscreen ([fff9670](https://github.com/revanced/revanced-patches/commit/fff9670a81108b8343d0b7913953fc6c2bb4a6f0))
-* **youtube/general-ads:** hide related videos in quick action ([d23c31a](https://github.com/revanced/revanced-patches/commit/d23c31a9ec39189e08474044ac5ca06d974add76))
-* **youtube/return-youtube-dislike:** support for shorts ([#1596](https://github.com/revanced/revanced-patches/issues/1596)) ([967c1cb](https://github.com/revanced/revanced-patches/commit/967c1cbd4b340a382a355f13d236d2881bafddbf))
-* **youtube:** remove patch `open-links-directly` ([79291a0](https://github.com/revanced/revanced-patches/commit/79291a0d34bd9514cbef5d97c21c59dfbffad287))
+YouTube
+==
+- fix: hide community post in home and subscription page not working properly https://github.com/inotia00/ReVanced_Extended/issues/382
+- refactor(enable-old-quality-layout): match with the official ReVanced's source code https://github.com/inotia00/ReVanced_Extended/issues/377
+- refactor(litho): minor optimization
+- crowdin translation update
+`French`, `Greek`, `Japanese`
 
+
+YouTube Music
+==
+- fix: incorrect description https://github.com/inotia00/ReVanced_Extended/issues/353
+- crowdin translation update
+`Indonesian`, `Polish`
+
+
+ETC
+==
+- drop support YouTube v18.08.36
+
+
+※ Compatible ReVanced Manager: v0.0.56
+※ If you want to contribute to the translation, refer below
+
+[Crowdin translation]
+- [European Countries](https://crowdin.com/project/revancedextendedeu)
+- [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.08.36  
+YouTube: 18.07.34  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
